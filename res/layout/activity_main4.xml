@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39c4b6b6">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#39c4b6b6"
+        android:weightSum="1">
+
+
+
+
+        <Button
+            android:background="@drawable/buttonstyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="balçova "
+            android:id="@+id/button_balcova"
+            android:layout_gravity="center_horizontal"
+            android:onClick="setContentView"
+            android:clickable="true"
+            android:textColor="#FFD12828"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:shadowColor="#6e4d4d"
+            android:padding="10dp"
+            android:layout_marginTop="50dp"
+            />
+
+        <Button
+            android:background="@drawable/buttonstyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="konak"
+            android:id="@+id/button_konak"
+            android:layout_gravity="center_horizontal"
+            android:onClick="setContentView"
+            android:textColor="#FFD12828"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"/>
+
+
+        <Button
+        android:background="@drawable/buttonstyle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="karsiyaka "
+        android:id="@+id/button_karsiyaka"
+        android:layout_gravity="center_horizontal|bottom"
+        android:onClick="setContentView"
+        android:textColor="#FFD12828"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+        <Button
+            android:background="@drawable/buttonstyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="buca"
+            android:id="@+id/button_buca"
+            android:layout_gravity="center_horizontal|bottom"
+            android:onClick="setContentView"
+            android:textColor="#FFD12828"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:background="@drawable/buttonstyle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="bornova "
+            android:id="@+id/button_bornova"
+            android:layout_gravity="center_horizontal|bottom"
+            android:onClick="setContentView"
+            android:textColor="#FFD12828"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

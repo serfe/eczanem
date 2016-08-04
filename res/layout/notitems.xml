@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="12dip"
+    android:orientation="vertical"
+    android:background="#39c4b6b6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/konuText"
+        android:layout_marginRight="4dip"
+        android:text="Diary Title "
+        android:gravity="left"
+        android:textStyle="bold"
+        android:textSize="20dip"
+        android:layout_height="40dp"
+        android:textColor="#FFD12828"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/tarihText"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:text="Date Recorded"
+        android:textSize="15dip"
+        android:layout_height="42dp"
+        android:textColor="#FFD12828"
+        android:autoText="false"
+        android:background="#ffffff" />
+    <TextView
+        android:id="@+id/icerikText"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:text="Icerik"
+        android:textSize="15dip"
+        android:layout_height="42dp"
+        android:textColor="#FFD12828"
+        android:autoText="false"
+        android:background="#ffffff" />
+</LinearLayout>

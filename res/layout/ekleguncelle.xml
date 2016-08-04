@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" 
+     android:layout_width="fill_parent" 
+     android:layout_height="fill_parent" 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#D9D7D7"
+    android:weightSum="1">
+     <TextView 
+         android:layout_width="fill_parent" 
+         android:layout_height="30dip" 
+         android:text="Konu" 
+         android:textSize="20dip"
+         android:textColor="#FFD12828"
+         android:paddingLeft="10dip"
+         android:paddingTop="10dp"
+         android:paddingRight="10dp"
+         android:paddingBottom="10dp"
+         android:layout_weight="0.14" />
+
+     <EditText 
+         android:id="@+id/konuText" 
+         android:layout_width="fill_parent" 
+         android:layout_height="40dip"
+         android:paddingTop="5dip"
+         android:paddingRight="65dip"
+         android:textColor="#FFD12828"
+         android:background="#ffffff"
+         android:layout_weight="0.14"
+         android:paddingLeft="15dp" />
+     <TextView 
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content" 
+         android:textSize="20dip"
+         android:paddingLeft="10dip"
+         android:text="Icerik"
+         android:textColor="#FFD12828"
+         android:layout_weight="0.14"
+         android:paddingTop="10dp" />
+     <EditText
+
+         android:id="@+id/icerikText" 
+         android:layout_width="fill_parent" 
+         android:gravity="top"
+         android:textColor="#FFD12828"
+         android:paddingTop="15dip"
+         android:paddingBottom="15dip"
+         android:paddingRight="65dip"
+         android:typeface="sans"
+         android:paddingLeft="15dip"
+         android:layout_height="150dip"
+         android:background="#ffffff" />
+
+
+     <Button
+         android:background="@drawable/buttonstyle"
+         android:id="@+id/opButton"
+         android:textColor="#FFD12828"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="Ekle"
+         android:textSize="20dp"
+         android:layout_gravity="right"
+         android:layout_marginRight="15dip"
+         android:layout_marginTop="20dip"/>
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="206dp"
+            android:layout_height="match_parent"
+            android:id="@+id/adresstext"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:background="@drawable/buttonstyle"
+            android:textColor="#FFD12828"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:text="Ara"
+            android:id="@+id/searchbutton"
+            android:layout_gravity="right"
+            android:onClick="onSearch"
+            android:clickable="true"
+            android:textSize="13dp" />
+
+        <Button
+            android:background="@drawable/buttonstyle"
+            android:textColor="#FFD12828"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Görünüm"
+            android:id="@+id/changebutton"
+            android:layout_gravity="right"
+            android:onClick="onChangeType"
+            android:clickable="true"
+            android:textSize="13dp" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="350dp"
+    android:layout_height="517dp"
+    tools:context="com.example.serife.eczanem.MapsActivity" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:id="@+id/buttonzoom"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:clickable="true"
+                android:onClick="onZoom" />
+
+            <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/buttonzoomout"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="#000000"
+                android:clickable="true"
+                android:onClick="onZoom" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
